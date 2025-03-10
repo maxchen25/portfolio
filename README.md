@@ -1,4 +1,4 @@
-# portfolio
+# Portfolio
 A collection of my data analysis projects—more to come!
 
 # 2025 Car Cost Analysis
