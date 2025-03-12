@@ -11,6 +11,6 @@ Key features:
 Disclaimer: This is a personal project for data analysis practice. The figures are estimates based on available data and should not be taken as financial advice.
 
 ## My Old College Projects
-IS4420 Database Fundamentals: Designed a fictional restaurant database, including tables, queries, and stored procedures.
-IS4460 Web-Based Applications: Built a basic website for a fictional fish store using PHP, with features like secure login and cart management.
-IS4485 Python COVID Analysis: Analyzed global COVID-19 data using Python, focusing on trends in cases, deaths, and recoveries.
+- IS4420 Database Fundamentals: Designed a fictional restaurant database, including tables, queries, and stored procedures.
+- IS4460 Web-Based Applications: Built a basic website for a fictional fish store using PHP, with features like secure login and cart management.
+- IS4485 Python COVID Analysis: Analyzed global COVID-19 data using Python, focusing on trends in cases, deaths, and recoveries.
