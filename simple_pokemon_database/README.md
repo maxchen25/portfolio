@@ -1,34 +1,26 @@
-# Pokémon Database Project
+# Simple Pokémon Database Project
 
-This project is about building a simple Pokémon database using data from the PokeAPI. 
+This project involves building a simple Pokémon database using data from the PokeAPI.
+
+## Database:
+- **Complete Database File**: `pokemondb.db` (Updated as of 04/24/2025)
 
 ## What I Worked On:
-- **Database Design and Creation**:  
-  Built the structure of the database using SQLite.
+- **Database Design and Setup**:
+  Designed and created the database schema using SQLite.
 
-- **Data Scraping**:  
-  Wrote a Python script (`scrape_evolution_chain.py`) to get evolution chain data from PokeAPI. I did this because the official CSV file wasn’t usable.
+- **Database Updates**:
+  Enhanced the database by adding new columns with SQL queries (e.g., `add_legendary_mythical_columns.sql`, `add_species_column.sql`).
 
-- **JSON to CSV Conversion**:  
-  Converted the scraped JSON data into CSV format so it could be imported into the database.
+- **Data Scraping**:
+  Developed Python scripts (`scrape_evolution_chain.py`, `scrape_legendary_mythical.py`) to scrape data from the PokeAPI. This was necessary due to missing data in the official CSV files.
 
-- **CSV Cleaning**:  
-  Cleaned and organized the CSV files to make sure they worked with the database.
+- **JSON to CSV Conversion**:
+  Converted the scraped JSON data into CSV format using Python scripts (`evolution_chain_json_to_csv.py`, `legendary_mythical_lists_and_csv.py`).
 
-- **Data Import**:  
-  Used a Python script to load the cleaned CSV data into the database.
+- **CSV Cleaning**:
+  Cleaned and organized the CSV files to ensure compatibility with the database schema (`clean_csv_for_db.py`).
 
-## How to Set It Up
-
-### Prerequisites:
-- **SQLite**: Make sure you have SQLite installed.
-- **(Optional)** DB Browser for SQLite: Helpful if you want a visual interface to explore the database.
-
-### Steps:
-
-1. **Create the Database Tables**  
-   Run `pokemondb_reset.py` or use the SQL in `pokemon.sql` to set up the tables.
-
-2. **Import the Data**  
-   Run `import_csv_to_db.py` to load the data from the CSV files into the database.
+- **Data Import**:
+  Used a Python script (`import_csv_to_db.py`) to import the cleaned CSV data into the database.
 
