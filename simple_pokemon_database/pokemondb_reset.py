@@ -1,4 +1,4 @@
-from sqlalchemy import create_engine, MetaData, text
+from sqlalchemy import create_engine, text
 from pathlib import Path
 
 # 1. Configure your database
