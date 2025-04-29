@@ -56,7 +56,7 @@ To save money, buying a **gas or hybrid car** is the best option. **EVs are expe
 
 ## Visuals
 
-![Screenshot](./project_screenshot)
+![Screenshot](./project_screenshot.png)
 
 ## What I Learned
 
