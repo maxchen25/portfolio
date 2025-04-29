@@ -1,26 +1,44 @@
 # Simple Pokémon Database Project
 
-This project involves building a simple Pokémon database using data from the PokeAPI.
+📁 [Download pokemondb.db](./pokemondb.db)
 
-## Database:
-- **Complete Database File**: `pokemondb.db` (Updated as of 04/24/2025)
+## Project Overview
 
-## What I Worked On:
-- **Database Design and Setup**:
-  Designed and created the database schema using SQLite.
+This project focuses on creating a simple Pokémon database to store and organize data about Pokémon. The database is built using SQLite and the data is sourced from the PokeAPI.
 
-- **Database Updates**:
-  Enhanced the database by adding new columns with SQL queries (e.g., `add_legendary_mythical_columns.sql`, `add_species_column.sql`).
+## Goals
 
-- **Data Scraping**:
-  Developed Python scripts (`scrape_evolution_chain.py`, `scrape_legendary_mythical.py`) to scrape data from the PokeAPI. This was necessary due to missing data in the official CSV files.
+- Build a database to store simple Pokémon-related data.
 
-- **JSON to CSV Conversion**:
-  Converted the scraped JSON data into CSV format using Python scripts (`evolution_chain_json_to_csv.py`, `legendary_mythical_lists_and_csv.py`).
+## Data Source
 
-- **CSV Cleaning**:
-  Cleaned and organized the CSV files to ensure compatibility with the database schema (`clean_csv_for_db.py`).
+PokeAPI: [https://pokeapi.co/](https://pokeapi.co/)
+Raw Data: [View folder](./data)
+Processed Data: [View folder](./processed_data)
 
-- **Data Import**:
-  Used a Python script (`import_csv_to_db.py`) to import the cleaned CSV data into the database.
+## Tools & Skills Used
 
+- **SQLite**: For designing and managing the database.
+- **Python**: For scraping, cleaning, and importing data. Used libraries like `pandas`, `sqlalchemy`, and `requests`.
+- **CSV**: For organizing and structuring data before import.
+- **PokeAPI**: Primary source for Pokémon data.
+
+## Project Workflow
+
+1. **Database Design**: Created the database schema using SQLite.
+2. **Data Gathering**: Collected CSV data from the PokeAPI GitHub. Used Python scripts to scrape additional missing data when needed.
+3. **JSON to CSV Conversion**: Converted scraped JSON data into CSV format.
+4. **CSV Cleaning**: Cleaned and formatted CSV files to match the database schema.
+5. **Data Import**: Imported cleaned CSV data into the SQLite database using Python.
+6. **Data Updates**: Ran SQL scripts to add new columns and update the database with additional data.
+
+## Visuals
+
+![ERD Diagram](./docs/ERD%20Diagram.png)
+
+## What I Learned
+
+- How to design and manage a simple database using SQLite.
+- How to scrape and extract data from an API using Python.
+- How to clean and convert data for database integration.
+- How to use GitHub to organize and share my project.
